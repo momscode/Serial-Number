@@ -3,8 +3,8 @@
 
 frappe.ui.form.on('Serial Number Status', {
 	
-		validate:function(frm,cdt,cdn)
-		{
+		/*validate:function(frm,cdt,cdn)
+		/{
 			var d=locals[cdt][cdn]
 	
 			alert(d.serial_no)
@@ -24,6 +24,6 @@ frappe.ui.form.on('Serial Number Status', {
 					
 				}
 			});
-		}
+		}*/
 	
 });
