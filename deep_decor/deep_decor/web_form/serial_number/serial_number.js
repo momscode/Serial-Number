@@ -28,7 +28,7 @@ frappe.ready(function() {
             + "<li></b>Amc Expiry Date: "+r.message[i].warranty_expiry_date+"</li>"
             + "<li></b>Maintance Status: "+r.message[i].maintenance_status+"</li>"
     + "</ul>","Warranty Status")
-					return false;
+					
 					//frappe.web_form.validated = false;
 					}
 				}
