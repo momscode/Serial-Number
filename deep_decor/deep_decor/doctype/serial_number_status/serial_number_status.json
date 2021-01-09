@@ -1,0 +1,89 @@
+{
+ "creation": "2021-01-08 18:47:30.752319",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "serial_no",
+  "warranty_expiry_date",
+  "amc_expiry_date",
+  "maintenance_status",
+  "check",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Data",
+   "label": "Serial No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "warranty_expiry_date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Warranty Expiry Date"
+  },
+  {
+   "fieldname": "amc_expiry_date",
+   "fieldtype": "Data",
+   "label": "AMC Expiry Date"
+  },
+  {
+   "fieldname": "maintenance_status",
+   "fieldtype": "Data",
+   "label": "Maintenance Status"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Serial Number Status",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "check",
+   "fieldtype": "Button",
+   "label": "Check"
+  }
+ ],
+ "modified": "2021-01-09 08:51:24.045118",
+ "modified_by": "Administrator",
+ "module": "Deep Decor",
+ "name": "Serial Number Status",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}
