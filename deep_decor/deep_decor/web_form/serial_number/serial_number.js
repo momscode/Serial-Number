@@ -20,7 +20,7 @@ frappe.ready(function() {
 						else{
 					for (var i=0; i<=r.message.length; i++){
 						debugger;
-						var data1=r.message[i].serial_no;
+						//var data1=r.message[i].serial_no;
 			msgprint("Notification"
     + "<hr>"
     + "<ul>"
